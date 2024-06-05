@@ -6,6 +6,6 @@ person = {
      "instagram" : "mohamed66"
 }
 #print (person)
-person ["facebook"] = "mohamedHabib"
-del person["key"]
+person ["facebook"] = "mohamedHabib" # use tag ["key"] = "var"
+del person["key"] #use del and tag to delete key 
 print (person)
